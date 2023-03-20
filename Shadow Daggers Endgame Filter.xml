@@ -1,5 +1,6 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Shadow Daggers Endgame Filter</name>
+<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Shadow Daggers Endgame Filter (Maxroll)</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>5</filterIconColor>
   <description>0.9</description>
@@ -392,6 +393,98 @@
       <maxLvl>101</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Wanted 1H Swords (Strict)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>SHIELD</EquipmentType>
+          </type>
+          <subTypes>
+            <int>10</int>
+            <int>3</int>
+            <int>14</int>
+            <int>13</int>
+            <int>12</int>
+            <int>11</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>81</int>
+            <int>46</int>
+            <int>56</int>
+            <int>86</int>
+            <int>428</int>
+            <int>74</int>
+            <int>3</int>
+            <int>25</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Shields</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>SHIELD</EquipmentType>
+          </type>
+          <subTypes>
+            <int>10</int>
+            <int>3</int>
+            <int>14</int>
+            <int>13</int>
+            <int>12</int>
+            <int>11</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>81</int>
+            <int>46</int>
+            <int>56</int>
+            <int>86</int>
+            <int>428</int>
+            <int>74</int>
+            <int>3</int>
+            <int>25</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Shields (Strict)</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
