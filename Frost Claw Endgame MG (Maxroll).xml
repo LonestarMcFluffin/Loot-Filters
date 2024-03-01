@@ -1,4 +1,5 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="utf-8"?>
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Frost Claw Endgame MG (Maxroll)</name>
   <filterIcon>2</filterIcon>
   <filterIconColor>8</filterIconColor>
@@ -10,7 +11,7 @@
       <type>HIDE</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>NORMAL MAGIC RARE</rarity>
+          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
         </Condition>
       </conditions>
       <color>0</color>
